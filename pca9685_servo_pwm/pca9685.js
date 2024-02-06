@@ -1,3 +1,7 @@
+// PCA9685 servo motors driver with raw PWM output extension
+// WARNING: If setPWM is used for terminals to which servo motors are connected, there is a risk of servo motor failure.
+// NOTE: setPWM has a limitation fixed at 61 Hz.
+
 var PCA9685 = function(i2cPort,slaveAddress){
   this.i2cPort = i2cPort;
   this.i2cSlave = null;
