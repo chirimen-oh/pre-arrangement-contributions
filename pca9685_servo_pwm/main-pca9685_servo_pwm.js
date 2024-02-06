@@ -2,7 +2,7 @@
 // 警告：サーボを1番ポートに接続すると故障します。要注意
 
 import { requestI2CAccess } from "./node_modules/node-web-i2c/index.js";
-import PCA9685 from "./pca9685.js";
+import PCA9685 from "./pca9685.js"; // setPWM拡張版 pca9685(サーボ用)ドライバ: PWMの周波数は61Hz固定の制限付き
 const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
 
 main();
