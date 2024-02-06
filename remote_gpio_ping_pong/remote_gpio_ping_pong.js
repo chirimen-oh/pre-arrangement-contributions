@@ -31,8 +31,8 @@ async function connect(){
 async function sensLoop(){
     while(true){
         const v = await gpioPortSW.read();
+	channel.send(v);
         await sleep(300);
-		channel.send(v);
     }
 }
 
