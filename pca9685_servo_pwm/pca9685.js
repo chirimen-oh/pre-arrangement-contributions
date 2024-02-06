@@ -93,6 +93,7 @@ PCA9685.prototype = {
 
   setPWM: async function(pwmPort, dutyRatio) {
     // dutyRatio : 0.0(OFF) .. 1.0(ON)
+    // Note: 周波数は全チャンネル共通のためサーボに合わせて61Hzに固定される制限あり
     const portStart = 8;
     const portInterval = 4;
     if (this.i2cSlave == null) {
