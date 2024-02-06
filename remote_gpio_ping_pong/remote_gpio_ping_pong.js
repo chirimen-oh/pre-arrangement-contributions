@@ -23,7 +23,7 @@ async function connect(){
 	var relay = RelayServer("chirimentest", "chirimenSocket" , nodeWebSocketLib, "https://chirimen.org");
 	channel = await relay.subscribe("chirimenPingPong");
 	console.log("web socketリレーサービスに接続しました");
-	channel.onmessage = controlLED;
+	channel.onmessage = controlLED; // Note: RelayServerの仕様として、自分で送ったメッセージは返却されない
 
 	sensLoop();
 }
