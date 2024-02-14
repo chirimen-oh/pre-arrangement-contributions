@@ -11,4 +11,6 @@ PiZeroのシリアル端子に、GY-GPS6MV2等のシリアル接続GPSレシー�
 * シリアルポート及びGPSのライブラリを導入(myAppディレクトリで)
   * ```cd myApp```
   * ```sudo npm install serialport gps```
-* ```node main-GPS.js```
+* アプリの実行
+  * [main-serialGPS.js](main-serialGPS.js)を myApp下にコピー
+  * ```node main-serialGPS.js```
