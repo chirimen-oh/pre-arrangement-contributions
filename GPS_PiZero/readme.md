@@ -12,7 +12,7 @@
     * https://www.aitendo.com/product/10255
 * 動作確認
   * ```cat /dev/ttyS0```
-  * Note: GPS衛星電波受信されていなくてもメッセージが出力される。 ```/dev/serial0``` も使える
+  * Note: GPS衛星電波受信されていなくてもメッセージが出力される。 ```/dev/serial0``` も使える。測位成功するとメッセージが派手になり、LEDが点滅する (LEDは測位成功していないときは消灯)
 * シリアルポート及びGPSのライブラリを導入(myAppディレクトリで)
   * ```cd myApp```
   * ```sudo npm install serialport gps```
