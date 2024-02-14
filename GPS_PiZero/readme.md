@@ -15,7 +15,7 @@
   * Note: GPS衛星電波受信されていなくてもメッセージが出力される。 ```/dev/serial0``` も使える。測位成功するとメッセージが派手になり、LEDが点滅する (LEDは測位成功していないときは消灯)
 * シリアルポート及びGPSのライブラリを導入(myAppディレクトリで)
   * ```cd myApp```
-  * ```sudo npm install serialport gps```
+  * ```npm install serialport gps```
 * アプリの実行
   * [main-serialGPS.js](main-serialGPS.js)を myApp下に保存
   * ```node main-serialGPS.js```
