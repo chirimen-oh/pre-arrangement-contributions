@@ -4,7 +4,7 @@ PiZeroのシリアル端子に、GY-GPS6MV2等のシリアル接続GPSレシー�
   * ```sudo raspi-config```
   * Interface Options -> Serial Port -> Login over serial: いいえ , serial port enabled: はい
   * Note: この設定はUSBシリアルのコンソールログインには影響しない
-* 結線 (GPSのRX端子の結線は基本動作では不要)
+* 結線 (GPSのRX端子の結線は基本動作では不要) : 下図参照
 * 動作確認
   * ```cat /dev/ttyS0```
   * Note: GPS衛星電波受信されていなくてもメッセージが出力される。 ```/dev/serial0``` も使える
@@ -14,3 +14,5 @@ PiZeroのシリアル端子に、GY-GPS6MV2等のシリアル接続GPSレシー�
 * アプリの実行
   * [main-serialGPS.js](main-serialGPS.js)を myApp下にコピー
   * ```node main-serialGPS.js```
+
+![GY-NEO6MV2.png](GY-NEO6MV2.png)
