@@ -2,7 +2,7 @@ PiZeroのシリアル端子に、GY-GPS6MV2等のシリアル接続GPSレシー�
 
 * OSの設定
   * ```sudo raspi-config```
-  * Interface Options -> Serial Port -> Login over serial: いいえ , serial port enabled: はい -> reboot
+  * Interface Options -> Serial Port -> Login over serial: いいえ , serial port enabled: はい -> Finish (reboot)
   * Note: この設定はUSBシリアルのコンソールログインには影響しない
 * 結線 (GPSのRX端子の結線は基本動作では不要) : 下図参照
   * 動作検証したモジュール
