@@ -17,7 +17,7 @@
   * ```cd myApp```
   * ```sudo npm install serialport gps```
 * アプリの実行
-  * [main-serialGPS.js](main-serialGPS.js)を myApp下にコピー
+  * [main-serialGPS.js](main-serialGPS.js)を myApp下に保存
   * ```node main-serialGPS.js```
 
 ![GY-NEO6MV2.png](GY-NEO6MV2.png)
