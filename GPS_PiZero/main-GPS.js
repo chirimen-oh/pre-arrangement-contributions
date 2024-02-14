@@ -13,7 +13,7 @@ parser.on('data', function (txtData) {
 });
 
 gps.on('data', function (data) {
-    if ( data.type=="GGA"){ // "RMC"タイプデータを読むと速度(ノット)が得られる
+    if (data.type == "GGA") { // "RMC"タイプデータを読むと速度(ノット)が得られる
         console.log(data);
     }
     /** 
