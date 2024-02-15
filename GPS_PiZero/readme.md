@@ -5,7 +5,7 @@
   * Interface Options -> Serial Port -> Login over serial: いいえ , serial port enabled: はい -> Finish (reboot)
   * Note: この設定はUSBシリアルのコンソールログインには影響しない
 * 結線 (GPSのRX端子の結線は基本動作では不要) : 下図参照
-  * 動作検証したモジュール
+  * 動作検証したモジュール (GY-NEO6MV2,基板の印刷はGY-GPS6MV2)
     * https://electronicwork.shop/items/625c1ca99fe3d707d725cbe1
   * 同等品と考えられるもの
     * https://www.amazon.co.jp/dp/B07LF6KGR8
