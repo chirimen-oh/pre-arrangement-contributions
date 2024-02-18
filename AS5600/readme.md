@@ -12,3 +12,5 @@
   * 両方ともmyAppディレクトリ直下に置く
 
 ![AS5600.png](AS5600.png)
+
+![AS5600_drawing.svg](AS5600_drawing.svg)
