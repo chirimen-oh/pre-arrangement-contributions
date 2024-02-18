@@ -5,6 +5,9 @@
 * チップの中心と、円盤状磁石の中心を一致させる
 * チップ表面と磁石の距離は1mm程度にする
 * DIRピンをVCCに接続すると角度の方向が逆向きになる
+* ブレークアウトボード
+  * https://electronicwork.shop/items/64205dc6cd92fe0096fb7d5c
+  * https://www.switch-science.com/products/3493
 
 * ソフトウェア
   * [as5600.js](as5600.js) : ドライバ
