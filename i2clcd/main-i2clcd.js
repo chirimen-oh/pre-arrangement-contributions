@@ -15,8 +15,8 @@ async function main() {
     await lcd.print("I2C LCD 1602", lcd.line2);   // 2行目
     await new Promise(r => setTimeout(r, 1500));
 
-    await lcd.print("コンニチハ ラズパイ", lcd.line1);
-    await lcd.print("ｵﾊﾖｳｺﾞｻﾞｲﾏｽ", lcd.line2);
+    await lcd.print("コンニチハ ラズパイ", lcd.line1); // 全角カタカナ
+    await lcd.print("ｵﾊﾖｳｺﾞｻﾞｲﾏｽ", lcd.line2); // 半角カタカナ
     await sleep(1500);
   }
 }
