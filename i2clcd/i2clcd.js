@@ -1,6 +1,6 @@
 /**
  * I2C 1602 LCD with PCF8574 Driver for node-webi2c
- * Note: VCCは5Vを入れないとLCDのコントラストが引く場合がある
+ * Note: VCCは5Vを入れないとLCDのコントラストが低い場合がある
  *       LEDジャンパーは付けておく
  */
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
