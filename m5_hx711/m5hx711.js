@@ -1,5 +1,6 @@
 // @ts-check
-// M5HX711 driver for CHIRIMEN
+// Unit-Mini Scales (https://docs.m5stack.com/ja/unit/Unit-Mini%20Scales)
+// HX711 with STM32 unit driver for CHIRIMEN
 // Weight Scale I2C Sensor
 // Based on UNIT_SCALES Arduino library
 
